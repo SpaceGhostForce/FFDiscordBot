@@ -1,8 +1,10 @@
 version: '2'
+
 services:
-  web:
+  discord:
     build: .
     command: npm start
+    restart: unless-stopped
     volumes:
       - .:/app/
       - /app/node_modules
