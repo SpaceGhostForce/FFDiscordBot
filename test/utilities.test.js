@@ -47,12 +47,6 @@ describe('Bot Utilities', () => {
     expect(object.fullname).to.equal('josh gordon');
   });
 
-  it('Should return adrian peterson', () => {
-    const player = 'adrian peterson';
-    const object = utilities.findPlayer(player);
-    expect(object.fullname).to.equal('adrian peterson');
-  });
-
   it('Should return david johnson', () => {
     const player = 'david johnston';
     const object = utilities.findPlayer(player);
