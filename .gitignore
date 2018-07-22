@@ -258,3 +258,6 @@ dbconfig.json
 
 #vscode tasks folder
 .vscode
+
+#database docker data folder
+postgres-data
