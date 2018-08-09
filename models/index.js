@@ -5,6 +5,7 @@ const repos = require('./repos');
 const initOptions = {
     extend(obj, dc) {
         obj.players = new repos.Players(obj, pgp);
+        obj.drafts = new repos.Drafts(obj, pgp);
     }
 };
 

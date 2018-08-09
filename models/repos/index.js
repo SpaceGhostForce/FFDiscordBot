@@ -4,4 +4,5 @@
 
 module.exports = {
     Players: require('./players'),
+    Drafts: require('./drafts'),
 };
